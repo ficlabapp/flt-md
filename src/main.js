@@ -1,7 +1,7 @@
 "use strict";
 
-import TurndownService from "turndown";
-import TurndownPluginGFM from "joplin-turndown-plugin-gfm";
+import { default as TurndownService } from "turndown";
+import { default as TurndownPluginGFM } from "joplin-turndown-plugin-gfm";
 import * as FLT from "@ficlabapp/flt";
 import { HTMLRendererPlugin } from "@ficlabapp/flt-html";
 
