@@ -1,0 +1,24 @@
+{
+    "name": "@ficlabapp/flt-md",
+    "version": "1.0.0",
+    "description": "Markdown rendering plugin for FLT",
+    "repository": "github:ficlabapp/flt-md",
+    "license": "ISC",
+    "author": [
+        {
+            "name": "Steve Gilberd",
+            "email": "steve@erayd.net"
+        }
+    ],
+    "main": "./src/main.js",
+    "type": "module",
+    "devDependencies": {
+        "prettier": "^2.1.2"
+    },
+    "dependencies": {
+        "@ficlabapp/flt": "^1.1.9",
+        "@ficlabapp/flt-html": "^1.2.0",
+        "joplin-turndown-plugin-gfm": "^1.0.12",
+        "turndown": "^7.0.0"
+    }
+}
