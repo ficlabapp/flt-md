@@ -1,6 +1,6 @@
 {
     "name": "@ficlabapp/flt-md",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Markdown rendering plugin for FLT",
     "repository": "github:ficlabapp/flt-md",
     "license": "ISC",
@@ -18,7 +18,7 @@
     "dependencies": {
         "@ficlabapp/flt": "^1.1.9",
         "@ficlabapp/flt-html": "^1.2.0",
-        "joplin-turndown-plugin-gfm": "^1.0.12",
+        "@joplin/turndown-plugin-gfm": "^1.0.27",
         "turndown": "^7.0.0"
     }
 }
