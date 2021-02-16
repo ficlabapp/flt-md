@@ -62,6 +62,14 @@ export class MarkdownRendererPlugin extends FLT.Plugin {
             .forEach((a) => a.parentNode.removeChild(a));
         let td = new TurndownService({ linkStyle: "referenced", emDelimiter: "*", hr: "   ---" });
         td.use(TurndownPluginGFM.gfm);
+        td.addRule("wrap-paragraphs", {
+            filter: ["p"],
+            replacement: (content) =>
+                content
+                    .match(/.{1,78}(?:\s|$)/gsu)
+                    .map((s) => s.trim())
+                    .join("\n") + "\n\n",
+        });
         md += td.turndown(document.body);
         return md;
     }
