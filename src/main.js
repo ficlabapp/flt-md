@@ -6,7 +6,7 @@ import * as FLT from "@ficlabapp/flt";
 import { HTMLRendererPlugin } from "@ficlabapp/flt-html";
 
 /**
- * Plugin to render FLT as HTML
+ * Plugin to render FLT as markdown
  *
  * @since 1.0.0
  */
