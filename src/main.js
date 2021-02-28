@@ -50,9 +50,7 @@ export class MarkdownRendererPlugin extends FLT.Plugin {
             this.features.DCMETA &&
             (title = this.getDC("title").join(", "))
         ) {
-            let indent = Math.floor((options.wrap - title.length) / 2);
-            md += `${"".padStart(indent, " ")}${title}\n`;
-            md += `${"".padStart(indent, " ")}${"".padStart(title.length, "=")}\n\n`;
+            md += `${title}\n${"".padStart(title.length, "=")}\n\n`;
         }
 
         // body

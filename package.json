@@ -1,6 +1,6 @@
 {
     "name": "@ficlabapp/flt-md",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Markdown rendering plugin for FLT",
     "repository": "github:ficlabapp/flt-md",
     "license": "ISC",
